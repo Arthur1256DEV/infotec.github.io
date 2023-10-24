@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+*::-webkit-scrollbar{
+    background-color: transparent;
+    border-radius: 15px;
+    width: 4px;
+    transition: 0.2s;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #3F3939;
+    transition: 0.2s;
+    border-radius: 15px;
+}
+
+*::-webkit-scrollbar:horizontal{
+    height: 5px;
+}
+
+*::-webkit-scrollbar-button{
+    display: none;
+}
+
+*::-webkit-scrollbar-corner{
+    display: none;
+}
+
+body{
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-escuro-abstrato-com-ia-generativa-de-linhas-roxas_169016-30668.jpg?w=900&t=st=1698185136~exp=1698185736~hmac=429717c77acf58e442253c29d47f4828e4c90126120df0f6cd90b8436b2fcefd);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    height: fit-content;
+    width: 94vw;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 128px;
+    background: rgba(255, 255, 255, 0.03);
+    color: white;
+    font-weight: 200;
+    transition: 0.2s;
+}
+
+header:hover{
+    border: 2px solid #09193d;
+    transition: 0.2s;
+    transform: scale(1.02);
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+    transition: 0.1s;
+    color: white;
+}
+
+li:hover{
+    transform: scale(1.1);
+    font-weight: 600;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+main{
+    margin-top: 30px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.03);
+    width: 90vw;
+    height: 80vh;
+    border-radius: 60px;
+    box-shadow: 2px 0 #071430;
+    transition: 0.2s;
+    overflow: scroll;
+}
+
+main:hover{
+    border: 2px solid #09193d;
+    transition: 0.2s;
+    transform: scale(1.005);
+}
+
+.logo{
+    display: flex;
+    float: left;
+}
+
+.logoImg{
+    width: 50px;
+    border-radius: 30px;
+}
+
+h2, p{
+    color: white;
+    font-weight: 400;
+}
+
+h2{
+    margin-bottom: 5px;
+}
+
+p{
+    font-weight: 200;
+}
+
+.container{
+    padding: 50px;
+    font-weight: 400;
+}
