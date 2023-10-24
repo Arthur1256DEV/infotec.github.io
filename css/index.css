@@ -7,14 +7,15 @@
 *::-webkit-scrollbar{
     background-color: transparent;
     border-radius: 15px;
-    width: 4px;
+    width: 3px;
     transition: 0.2s;
 }
 
 *::-webkit-scrollbar-thumb{
-    background-color: #3F3939;
+    background-color: transparent;
     transition: 0.2s;
     border-radius: 15px;
+
 }
 
 *::-webkit-scrollbar:horizontal{
@@ -133,4 +134,10 @@ p{
 .container{
     padding: 50px;
     font-weight: 400;
+}
+
+@media screen and (min-width: 380px) and (orientation: portrait){
+    header{
+        transform: scale(0.9);
+    }
 }
